@@ -5,12 +5,12 @@ server(
     args = [
         "--hot",
         " --watch-poll",
-        "--config webpack.config.js"
+        "--config webpack.config.js",
     ],
     data = [
         "public/index.html",
         "src/index.tsx",
         "tsconfig.json",
-        "webpack.config.js"
+        "webpack.config.js",
     ],
 )
